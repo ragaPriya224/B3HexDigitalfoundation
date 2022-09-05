@@ -48,3 +48,18 @@ alter table student drop major;
 desc student;
 
 alter table student alter phone SET DEFAULT  12345;
+
+
+INSERT INTO student  SET student_ID=12, name= 'user1', grade = 'A' ,phone=456,country='china';
+
+select * from student;
+
+INSERT INTO student  SET student_ID=45, name= 'user2', grade = 'c' ;
+
+INSERT INTO student  SET student_ID=222, name= 'user4444', grade = 'E' ;
+
+
+ALTER TABLE "table_name" RENAME COLUMN "column 1" TO "column 2";
+
+ALTER TABLE student RENAME COLUMN country TO nation;
+
