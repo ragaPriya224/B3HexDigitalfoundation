@@ -5,3 +5,16 @@ types of dbms
    
  Relational databases -> diff types
  one such rdbms is mysql,postgres sql, oracle, maria db 
+ 
+ 
+ What is the difference between signed and unsigned SQL?
+UNSIGNED : only stores positive numbers (or zero). SIGNED : can store negative numbers.
+
+syntax:
+
+ SHOW DATABASES;
+ Create database <<Database Name >>
+Drop Database <<Database Name >>
+CREATE TABLE Table_Name (column_specifications)
+
+
