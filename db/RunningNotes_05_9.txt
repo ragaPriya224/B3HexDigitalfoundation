@@ -1,0 +1,7 @@
+DB -> database 
+types of dbms
+  - relational
+   - etc
+   
+ Relational databases -> diff types
+ one such rdbms is mysql,postgres sql, oracle, maria db 
