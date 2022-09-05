@@ -1,0 +1,12 @@
+TASKS:
+
+1. create a table called game 
+       and have some columns like name, ratings, etc
+
+2. create a table called employee
+    and have some columns of your choice, make sure to use keywords like notnull, unsigned, while creating it
+
+
+3. do all the operations like, creation of databases, showing dbs, deleting a databases,creation of table, showing table, showing structure of table, deleting the table,
+4. 
+
