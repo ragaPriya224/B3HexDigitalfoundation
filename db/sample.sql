@@ -63,3 +63,12 @@ ALTER TABLE "table_name" RENAME COLUMN "column 1" TO "column 2";
 
 ALTER TABLE student RENAME COLUMN country TO nation;
 
+
+INSERT INTO student
+VALUES (234,'user1111','B',8709880,'US');
+
+INSERT INTO student (student_ID, fname)
+VALUES (2343241, 'abc');
+
+INSERT INTO student
+VALUES (23455,'user1111','B',8709880);
