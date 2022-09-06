@@ -117,3 +117,79 @@ ALTER TABLE employees
 DROP FOREIGN KEY student_ID_FK;
 
 TRUNCATE TABLE student;
+
+
+create table dhaba (
+foodId int unsigned not null,
+foodName VARCHAR(20),
+quantity int unsigned ,
+check(quantity>0)
+);
+
+insert into dhaba 
+values(1,"pizza",40);
+insert into dhaba 
+values(2,"pizza",40);
+insert into dhaba 
+values(4,"BURGER",30);
+insert into dhaba 
+values(3,"FRIES",20);
+insert into dhaba 
+values(46,"coke",2);
+insert into dhaba 
+values(56,"vada",2);
+insert into dhaba 
+values(11,"pasta",1);
+insert into dhaba 
+values(99,"lasagne",5);
+SELECT * FROM dhaba;
+
+select foodname from dhaba;
+select distinct(foodname)  from dhaba;
+
+select foodname as name  from dhaba;
+
+select quantity  qty  from dhaba;
+
+select quantity  "no"  from dhaba;
+
+select count(*) from dhaba;
+
+
+select max(quantity) from dhaba;
+
+
+select min(quantity) from dhaba;
+
+SELECT SUM(quantity) FROM dhaba;
+
+SELECT AVG(quantity) FROM dhaba;
+
+show databases;
+select  foodName,quantity+100  from dhaba;
+
+select * from dhaba;
+
+select * from dhaba
+where quantity  =20 OR quantity = 30;
+
+SELECT * 
+FROM dhaba
+WHERE foodId BETWEEN 2 AND 46;
+
+
+SELECT * FROM dhaba
+WHERE foodName IN ('pasta','FRIES','vada');
+
+SELECT * FROM dhaba
+WHERE quantity IN (40,1,2);
+
+SELECT * FROM dhaba
+WHERE quantity NOT IN (40,1,2);
+
+select * from dhaba
+where foodName like '%a';
+
+select * from dhaba
+order by foodName asc;
+
