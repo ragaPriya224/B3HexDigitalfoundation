@@ -50,13 +50,13 @@ desc student;
 alter table student alter phone SET DEFAULT  12345;
 
 
-INSERT INTO student  SET student_ID=12, name= 'user1', grade = 'A' ,phone=456,country='china';
+INSERT INTO student  SET student_ID=12, fname= 'user1', grade = 'A' ,phone=456,nation='china';
 
 select * from student;
 
-INSERT INTO student  SET student_ID=45, name= 'user2', grade = 'c' ;
+INSERT INTO student  SET student_ID=45, fname= 'user2', grade = 'c' ;
 
-INSERT INTO student  SET student_ID=222, name= 'user4444', grade = 'E' ;
+INSERT INTO student  SET student_ID=222, fname= 'user4444', grade = 'E' ;
 
 
 ALTER TABLE "table_name" RENAME COLUMN "column 1" TO "column 2";
@@ -72,3 +72,48 @@ VALUES (2343241, 'abc');
 
 INSERT INTO student
 VALUES (23455,'user1111','B',8709880);
+
+SELECT * FROM  student;
+
+--   DAY 2
+SELECT nation FROM student;
+
+SELECT * FROM  student WHERE student_ID = 45;
+SELECT fname FROM  student WHERE nation = 'US';
+
+SELECT * FROM student;
+
+UPDATE student
+SET phone = 4567
+WHERE student_ID = 12;
+
+UPDATE student
+SET phone = 11111;
+
+SET SQL_SAFE_UPDATES = 0;
+
+UPDATE student
+SET grade = 'A' , nation = 'uk'
+where student_ID = 45;
+
+DELETE FROM student WHERE student_ID = 2343241;
+DELETE FROM student ;
+
+desc student;
+desc employees;
+
+ALTER TABLE employees ADD student_ID INT NOT NULL;
+
+ALTER TABLE employees DROP column student_ID;
+
+ALTER TABLE employees ADD student_ID  INT UNSIGNED NOT NULL;
+
+ALTER TABLE employees 
+ADD CONSTRAINT student_ID_FK
+FOREIGN KEY (student_ID)
+REFERENCES student (student_ID);
+
+ALTER TABLE employees
+DROP FOREIGN KEY student_ID_FK;
+
+TRUNCATE TABLE student;
