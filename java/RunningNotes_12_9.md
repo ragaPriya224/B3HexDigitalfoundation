@@ -22,3 +22,4 @@ https://www.geeksforgeeks.org/introduction-to-java/?ref=lbp
 byte < short  < int <long
    ----------------array syntax-------
       type []var-name = new type [size];
+https://pythontutor.com/java.html
