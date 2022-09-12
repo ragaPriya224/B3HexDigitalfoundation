@@ -18,3 +18,5 @@ https://www.javatpoint.com/java-basics
 https://www.tutorialspoint.com/java/index.htm
 https://www.w3schools.com/java/java_intro.asp
 https://www.geeksforgeeks.org/introduction-to-java/?ref=lbp
+----------------
+byte < short  < int <long 
