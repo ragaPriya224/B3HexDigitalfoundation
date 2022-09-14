@@ -2,13 +2,17 @@ package sample.practice;
 
 public class IfDemo {
     public static void main(String[] args) {
-        int money = 100;
+        int money = 4;
         int penPrice = 10;
-        if(money >= penPrice){
+        int pencilPrice = 5;
+        if(money >= 150){
+            System.out.println("yes u can buy special  pen ");
+        } else if(money >= penPrice){
             System.out.println("yes u can buy pen ");
-        }
-        else{
-            System.out.println(" u cant buy ");
+        } else if(money >=pencilPrice){
+            System.out.println("yes u can buy pencil ");
+        } else{
+            System.out.println(" let's go home ");
         }
     }
 }
