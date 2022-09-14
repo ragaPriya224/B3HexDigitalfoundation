@@ -1,0 +1,60 @@
+you have 100 rupee, and your favourite icecream is 50 rupee. Write a logic to find whether you’ll be able to buy a icecream or not. If yes, print , “yummy”, 
+if no, print, “let me buy next time” 
+----------------------------
+
+.Finish the code below to print your favorite animal and food.
+
+public class Test1
+{
+    public static void main(String[] args)
+    {
+        String animal =
+        String food =
+        System.out.println();
+
+    }
+}
+
+
+------------------------------------
+
+ Finish the code below to print your favorite movie and book.
+
+public class Test1
+{
+    public static void main(String[] args)
+    {
+        String movie = "";
+        String book = "";
+        System.out.println();
+
+    }
+}
+
+-----------------------------
+
+ The following code starts with String firstNameCaps = ALEX; and should print Alex. Use the toLowerCase and substring methods to do accomplish this task.
+public class Test1
+{
+    public static void main(String[] args)
+    {
+        String name1 = "ALEX";
+        System.out.println(firstNameCaps);
+    }
+}
+
+------------------------
+The following code should replace lol in the message with laugh out loud and print the new message.
+
+public class Test1
+{
+    public static void main(String[] args)
+    {
+        String message = "That was great - lol.";
+
+    }
+}
+
+
+output: That was great - laugh out loud
+--------------------------------------
