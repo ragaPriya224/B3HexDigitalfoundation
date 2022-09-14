@@ -69,4 +69,10 @@ using for loop, print numbers from 10 to 1
 store your name  in a variable and print it 5 times 
 using do while loop, and print numbers 1 to 5
 use while loop, and print numbers 1 to 5
------------------
+
+print 
+2
+4
+6
+8
+10
