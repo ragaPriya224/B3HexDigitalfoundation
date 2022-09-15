@@ -1,0 +1,4 @@
+continue, break
+access modifier -> public private default protected 
+pattern program
+method basic 
