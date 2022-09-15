@@ -2,6 +2,10 @@ continue, break
 access modifier -> public private default protected 
 pattern program
 method basic 
+oop intrp
+obj
+static
+constructor
 
 
 
