@@ -17,3 +17,9 @@ QN:4 create a method to find  the square of given  number and return it
 
 Eg: input 2, output 4
 input 5, output 25 
+----------------
+
+    
+1. create a class named dog and have any fields like colour, age , cost anything.. and try creating atleast 2- 3 objects with name like germanshepherd, dalmation, anything
+try to create a default constructor and a parameterised constructor and use it in your class
+ 
