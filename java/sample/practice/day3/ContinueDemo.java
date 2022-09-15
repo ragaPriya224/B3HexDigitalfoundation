@@ -7,6 +7,7 @@ public class ContinueDemo {
            continue; // that particular iteration is skipped
         }
         System.out.println("hello" +i);
+      //   System.out.println("welcome team");
        } 
     }
 }
