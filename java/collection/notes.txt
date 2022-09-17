@@ -150,3 +150,9 @@ Constructor:
 
 ArrayList al = new ArrayList();
 ArrayList al = new ArrayList(100);
+
+
+
+best: retrieval 
+worst : insertion/deletion X
+https://www.w3schools.com/java/java_arraylist.asp
