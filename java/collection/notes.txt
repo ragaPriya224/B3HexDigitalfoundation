@@ -9,3 +9,31 @@ QUEUE(I)
 MAP(I)
 SORTED MAP(I)
 NAVIGABLE MAP(I)
+
+
+1. Collection(I)
+
+ super Interface / Root interface
+-> defines most common methods used for any collection object
+-> there is no concrete class that implements collection interface
+
+(Concrete class -> In other words, it's a full implementation of its blueprint.
+As such, it has no unimplemented method)
+https://www.baeldung.com/java-concrete-class
+
+
+2.LIST(I)
+
+french fries and coke
+french fries -> first 
+coke -> second
+
+
+order is maintained, duplicate items are also allowed
+
+COLLECTION
+|
+LIST
+|
+ARRAYLIST LINKEDLIST VECTOR STACK
+VECTOR, STACK -> OLD/LEGACY CLASSES
