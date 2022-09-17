@@ -4,3 +4,8 @@ static flow
 1. identification of static members  from top to bottom
 2. execution of static variable assignment and static blocks from top to bottom
 3. main method execution
+----------------------------INSTANCE FLOW --------------------------
+//a. static flow will happen 
+// 1. identification of instance members  from top to bottom[1-6]
+//2. execution of instance variable assignment and instance blocks from top to bottom[6-12]
+//3. constructor  execution
