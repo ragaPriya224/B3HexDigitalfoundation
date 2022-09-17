@@ -204,5 +204,17 @@ Load Factor -> After loading how much factor, a new hashset object will be creat
 
 
 HASHSET
+---------
+LINKED HASH SET
+
+1.When to go -> ????    When insertion order is preserved
+Underlying DS: hashtable +linkedlist
+version ->1.4version 
+----------------------
+	   Hashset		   LinkedHashSet
+dup        no 		    	   no 
+insorder   no                      yes preserved 
+DS         hashtable               hashtable +linkedList
+---------------------------------------------------------
 
 
