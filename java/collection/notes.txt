@@ -38,5 +38,100 @@ LIST
 ARRAYLIST LINKEDLIST VECTOR STACK
 VECTOR, STACK -> OLD/LEGACY CLASSES
 
+3. Set(I)
+
+// dress shop -> unique items
+IF we want to represent group of individual objects as single entity where 
+*  it won't allow duplicate elements 
+* insertion order won't be maintained 
+
+Collection(I)
+|
+Set(I)  
+|
+HashSet(class)
+|
+LinkedHashSet(CLASS)
 
 
+
+            List          set
+duplicate    yes          no
+ins order    yes          no
+---------------------------
+4. sortedSet(I)
+
+Collection(I)
+|
+Set(I)
+|
+SortedSet(I)
+|
+NavigableSet(I)
+|
+TreeSet(Implementation class)
+
+* duplicate not allowed
+*insert according to sorting order
+
+5. navigableSet(I)
+
+* it is a child of sorted set
+* several methods for that navigation purpose
+* implementation class of navigable set is treeset
+
+
+6. : QUEUE(I)
+
+represent group of individual objects prior(before ) to processing, we can go for queue concept
+
+Collection(I)
+||
+
+QUEUE(I)
+
+
+
+PRIORITY QUEUE        BLOCKING QUEUE -> LINKED, PRIORITY 
+
+WE WERE representing a group of individual objects as a single entity 
+
+7. MAP(I)
+
+if we want to represent a group of objects as key , value pair -> then go for map
+
+Key              value 
+
+vegBriyani      100
+chickenBriyani   200
+coffee            50 
+
+
+key -> shuld be unique
+value-> can be duplicated
+
+
+rollID   name
+
+101   anu   -> entity 
+102   aravind
+103    john
+
+ pair of key value is known as entity 
+
+not child interface of collection 
+
+Map(I)
+
+hashMap    weakHashMap IdentityHashMap Hashtable(dictionary)
+linkedHashMap
+8.sortedmap(I)  ->
+
+insert a key value pair according to sorting order
+impl classs -> treemap
+
+
+9.navigable map(I)
+
+navigation purposes
+child of sorted map
