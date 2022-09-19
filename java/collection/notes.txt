@@ -236,3 +236,10 @@ comparator()
 
 
 --------------------------------------
+TREESET 
+
+ds: BALANCED TREE
+DUP -> NO 
+ORDER -> NOT MAINTAINED
+HETERO DATA -> NOT ALLOWED   --------------
+null only once,,,that too only one 
