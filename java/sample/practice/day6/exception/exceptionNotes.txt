@@ -1,0 +1,32 @@
+Exception:
+
+In most cases, exceptions are caused by our program,  and these are recoverable 
+Eg:
+
+London 
+
+local file ->
+
+
+try{
+// read data from a remote file @london file 
+} catch(filenotfoundexception e ){
+// use local file and continue 
+}
+
+
+ERROR:
+In most cases, exceptions are caused not  by our program,  and these are nonrecoverable 
+
+out of memory error
+
+types of exception:
+
+1. checked exception
+2. unchecked exception 
+
+
+CHECKED EXCEPTION -> Exceptions that are checked by the compiler is known as checked exception
+   					eg: file not found exception 
+UNCHECKED EXCEPTION-?Exceptions that are checked by the compiler 
+					eg: ARITHMETIC , CLASSCAST 
