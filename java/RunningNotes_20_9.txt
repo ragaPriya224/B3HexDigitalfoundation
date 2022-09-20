@@ -1,0 +1,12 @@
+String:immutable -> can't change existing object 
+When content is not changed frequently
+
+StringBuffer:mutable 
+    When content is  changed frequently & thread safety is needed
+
+StringBuilder:mutable 
+   When content is  changed frequently & thread safety is  not  needed
+
+----------------------
+
+equals() Method  -> content comparison 
