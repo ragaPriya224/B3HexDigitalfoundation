@@ -1,0 +1,16 @@
+JDBC
+
+Stage1: Connection establishment
+   a. Register the driver
+   b. Connect to the database
+   
+ a. Register the driver
+  Class.forName("com.mysql.jdbc.Driver");
+ b.Connect to the database
+  Connection conn = DriverManager.getConnection(URL,userid,password);
+Stage 2: Query construction
+  a.Create a statement
+  b. Query the database
+    --Types of Statement
+        Statement createStatement()
+        PreparedStatement prepareStatement(String sql)
