@@ -1,0 +1,84 @@
+PYTHON 
+
+WHAT IS PYTHON?
+--------------
+
+Python is a interpreted, interactive, general purpose , object-oriented high level programming language.
+
+interpreted -> which means line-by-line execution of code.  
+
+Interactive -> which means, it returns the result of the statement if correct else it returns the error message that helps in debugging 
+
+general purpose -> which means it can be used to build just about anything. 
+
+object-oriented -> which means, it support object-oriented programming feature 
+( it can be used to create a variety of different programs and isn’t specialized for any specific problem )
+
+high level programming language.-> which means, it reads like English and is more easy to understand. 
+
+HISTORY OF PYTHON:
+-----------------
+
+Designed by Guido van Rossum,
+used to build softwares, websites etc. 
+Latest version -> Python 3.10. 2
+
+BEST IDES FOR PYTHON:
+---------------------
+
+PySpark,VS code, jupyter, anaconda, etc
+Many PC's, Macs  will have python already installed. to check        Python --version 
+IF not, download from here     https://www.python.org/
+
+
+What python can do?
+-------------------
+-> used on server to create web apps
+-> connect to db's. Can modify/read files
+-> handle big data and perform complex maths
+
+WHY PYTHON?
+-----------
+-> work on diff platforms
+-> simple syntax similiar to english
+-> few lines 
+
+where python used
+------------------
+-> desktop
+-> game development
+-> AI
+-> DL
+-> ML
+-> IOT
+-> Data analysis 
+-> Web development
+->Automation
+->Software testing 
+ -> Everyday tasks
+ 
+ Python Syntax compared to other programming languages
+-----------------------------------------
+Python was designed for readability, and has some similarities to the English language with influence from mathematics.
+Python uses new lines to complete a command, as opposed to other programming languages which often use semicolons or parentheses.
+Python relies on indentation, using whitespace, to define scope; such as the scope of loops, functions and classes. Other programming languages often use curly-brackets for this purpose.
+
+
+java -> .java
+javascript -> .js
+python -> .py 
+
+
+What is the difference between statically typed and dynamically typed languages?
+---------------------------------------------------------------------------------
+https://stackoverflow.com/questions/1517582/what-is-the-difference-between-statically-typed-and-dynamically-typed-languages
+Statically typed languages
+----------------------------
+A language is statically typed if the type of a variable is known at compile time. For some languages this means that you as the programmer must specify what type each variable is;
+EG: JAVA, etc
+
+Dynamically Typed Language
+--------------------------
+
+A language is dynamically typed if the type is associated with run-time values, and not named variables/fields/etc.
+Eg: python, js 
