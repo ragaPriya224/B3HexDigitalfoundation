@@ -1,1 +1,25 @@
+   server client
 
+    server -> serves the food 
+
+    client -> request for food
+http vs https
+    http status code
+1xx, 2xx, 3xx, 4xx, 5xx  
+404 -> page not found 
+
+
+food ordering: 
+    coke 
+
+    pizza
+
+    request -> 
+
+static request
+
+dynamic request
+    static request - coke 
+
+    dynamic request - PIZZA
+    -
