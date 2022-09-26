@@ -23,3 +23,10 @@ dynamic request
 
     dynamic request - PIZZA
     -
+
+    CRUD
+
+Create  - POST
+Read   - GET
+Update  -- PUT
+Delete  -DELETE
