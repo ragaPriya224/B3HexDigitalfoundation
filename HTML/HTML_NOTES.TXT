@@ -1,3 +1,6 @@
 BONES ,SKELETON -> HTML (STRUCTURE)
 SKIN, MUSCLES -> CSS (BEAUTIFICATION)
 WALK, EAT , SLEEP -> JS (ACTIVITY )
+
+
+https://www.w3schools.com/tags/att_a_target.asp
