@@ -4,3 +4,28 @@ WALK, EAT , SLEEP -> JS (ACTIVITY )
 
 
 https://www.w3schools.com/tags/att_a_target.asp
+table ->
+rows, columns, cells.
+
+
+-----TASKS-------------
+2. Create an element that helps you to open the https://google.com in separate new tab.
+1.find the error:
+<html lang="en">
+    <head>
+        <title>Document
+            <body>
+                team
+        </title>
+    </head>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                team codergang
+            </div>
+        </body>
+    </html>
+
+
+3. 
