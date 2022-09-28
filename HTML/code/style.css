@@ -1,0 +1,35 @@
+h1{
+  color: green;  
+  /* background-color: yellow; */
+ 
+}
+
+#laptop{
+   font-style: italic; 
+}
+
+h3,h4,h5{
+    background-color: yellow;
+}
+/* #heading6,#para{
+    background-color: red;
+} */
+.bgColor{
+    background-color: red;  
+}
+#choc{
+    left: 111px;
+    position: absolute;
+}
+
+#textBox{
+    width: 100px;
+}
+
+#spidy {
+    background-color: coral;
+    width: 100px;
+    height: 65px;
+    border: 1px solid;
+    overflow: visible;
+  }
