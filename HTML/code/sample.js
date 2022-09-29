@@ -30,12 +30,12 @@ function square(number){
 const output = square(10);
 console.log(output);
 
-c=confirm("Do You Want to Continue")
-if(c){
-alert ("Welcome")
-}else{
-alert ("Thank You")
-}
+// c=confirm("Do You Want to Continue")
+// if(c){
+// alert ("Welcome")
+// }else{
+// alert ("Thank You")
+// }
 // array concepts
 let flavours = ['choc','strawberry','vanilla','pista'];
 console.log(flavours[1]); //strawberry
@@ -57,3 +57,14 @@ const person = {
 console.log("*********");
 console.log(person.eyeColor);//blue
 console.log("*********");
+
+
+function sayHello(){
+  console.log("button is clicked, function is triggered");
+  document.getElementById("textBox").value="developer";
+}
+function printNickName(){
+  let first_name = document.getElementById("textBox").value;
+  document.getElementById("nickText").value=first_name;
+}
+
