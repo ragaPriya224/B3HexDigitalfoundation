@@ -1,0 +1,22 @@
+
+
+    cloud providers: 
+​
+    google cloud platform
+
+    amazon web services
+
+    azure - microsoft
+
+
+
+TYPES OF CLOUD COMPUTING:
+1. IAAS -> Infrastructure as a service
+2. PAAS -> Platform as a service
+3. SAAS -> Software as a service 
+
+
+https://www.youtube.com/watch?v=QJncFirhjPg
+
+
+https://www.youtube.com/watch?v=YWrEl11dBvU
